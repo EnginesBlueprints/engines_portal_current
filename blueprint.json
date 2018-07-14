@@ -16,7 +16,7 @@
         "patch": 0
       }
     },
-    "timestamp": "2018-07-14T16:02:45+10:00"
+    "timestamp": "2018-07-14T16:04:23+10:00"
   },
   "software": {
     "base": {
@@ -35,6 +35,21 @@
         "input": {
           "type": "string"
         }
+      },
+      {
+        "name": "custom_var",
+        "value": "true",
+        "mandatory": true,
+        "ask_at_build_time": true,
+        "input": {
+          "type": "boolean"
+        }
+      }
+    ],
+    "template_files": [
+      {
+        "path": "/home//app/test",
+        "content": "tet"
       }
     ]
   }
