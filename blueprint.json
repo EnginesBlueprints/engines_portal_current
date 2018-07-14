@@ -15,12 +15,27 @@
         "level": "alpha",
         "patch": 0
       }
-    }
+    },
+    "timestamp": "2018-07-14T12:44:10+10:00"
   },
   "software": {
     "base": {
+      "name": "engines_portal_c",
+      "inherit": "https://raw.githubusercontent.com/EnginesBlueprints/engines_portal/master/blueprint.json",
+      "framework": "sinatra",
       "deployment_type": "web",
       "http_protocol": "https_and_http"
-    }
+    },
+    "environment_variables": [
+      {
+        "name": "branch",
+        "value": "current",
+        "mandatory": true,
+        "immutable": true,
+        "input": {
+          "type": "boolean"
+        }
+      }
+    ]
   }
 }
