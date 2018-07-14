@@ -16,7 +16,7 @@
         "patch": 0
       }
     },
-    "timestamp": "2018-07-14T12:44:10+10:00"
+    "timestamp": "2018-07-14T16:02:45+10:00"
   },
   "software": {
     "base": {
@@ -33,7 +33,7 @@
         "mandatory": true,
         "immutable": true,
         "input": {
-          "type": "boolean"
+          "type": "string"
         }
       }
     ]
